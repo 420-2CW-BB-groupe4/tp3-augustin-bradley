@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styleT.css">
+    <style>
+        #myTable {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        #myTable td, #myTable th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        #myTable tr:nth-child(even){background-color: #f2f2f2;}
+        #myTable th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #007BFF;
+            color: rgb(255, 255, 255);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>
+        <h1 id="root">Clients</h1>
+        <span id="affichage">
+            <ul id="clients"></ul>
+        </span>
+    </div>
+    <div>
+        <h1 id="root">Dates</h1>
+        <span id="affichage">
+            <ul id="dates"></ul>
+        </span>
+    </div>
+    <div>
+        <h1 id="root">Produits</h1>
+        <span id="affichage">
+            <ul id="produits"></ul>
+        </span>
+    </div>
+    <div>
+        <h1 id="root">Magasins</h1>
+        <span id="affichage">
+            <ul id="magasins"></ul>
+        </span>
+    </div>
+    <div>
+        <h1 id="root">Ventes</h1>
+        <span id="affichage">
+            <ul id="ventes"></ul>
+        </span>
+    </div>
+
+    <script src="./getTable.js"></script>
+
+</body>
+
+</html>
